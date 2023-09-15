@@ -1,0 +1,179 @@
+==============================
+Tested for Minimum Frequencies
+==============================
+=============================
+Samping Rate and Frequencies:
+=============================
+Sensor Names:
+1. Actuator--G3VM-12-1--by-8-solenoid-Solid-state-relay
+2. Actuator-Stepper-Motor--28BYJ-48
+3. Electro-Optical--Sensor
+4. Field-Devices-Switch
+5. Flow-Sensor--YF-S201
+6. Humidity-Sensor
+7. image-sensor
+8. Light-Sensors
+9. motion-sensor
+10. Phantom-all-in-one-sensor--eph-u14
+11. Pressure-Sensor-MPX5010DP
+12. Relay-DPDT-12V-Device
+13. Temperature-Sensor-TMP102
+14. Vibration-Sensor
+=====================================================
+======
+Note:-
+======
+Codes ran for 2 hours, 1 minute, and 54.5582 seconds.
+=====================================================
+=======================================================
+1. Actuator--G3VM-12-1--by-8-solenoid-Solid-state-relay
+=======================================================
+Minimum Frequency = 0.1 Hz
+Minimum Data Rate = 0.1 Readings/s
+Period of Minimum Frequency = 10 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 65.2 kB
+Number Sensor Values =733
+===================================
+2. Actuator-Stepper-Motor--28BYJ-48
+===================================
+Steps per Revolution = 4096
+Minimum Delay Between Steps = 0.001 s
+Minimum Frequency =  0.2 Hz
+Minimum Data Rate = 0.2 Readings/s
+Period of Minimum Frequency = 5 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =10.4kB
+Number Sensor Values =185
+
+==========================
+3. Electro-Optical--Sensor
+==========================
+Minimum Frequency =  0.1 Hz
+Minimum Data Rate = 0.1 Readings/s
+Period of Minimum Frequency = 10 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =65.4kb
+Number Sensor Values =688
+
+=======================
+4. Field-Devices-Switch
+=======================
+Minimum Frequency = 0.1 Hz
+Minimum Data Rate = 0.1 Readings/s
+Period of Minimum Frequency = 10 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 48.9kb
+Number Sensor Values =714
+
+=======================
+5. Flow-Sensor--YF-S201
+=======================
+Minimum Frequency = 0.1 Hz
+Minimum Data Rate = 0.1 Readings/s
+Period of Minimum Frequency = 10 s 
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =54.8kb
+Number Sensor Values =742
+
+==================
+6. Humidity-Sensor
+==================
+Minimum Frequency = 0.1 Hz
+Minimum Data Rate = 0.1 Readings/s
+Period of Minimum Frequency = 10 s
+Humidity Range: 30%-70%
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =48.8kb
+Number Sensor Values =642
+
+===============
+7. image-sensor
+===============
+Minimum Frequency = 10 Hz
+Minimum Data Rate = 10 Readings/s
+Period of Minimum Frequency = 0.1 s
+Image Width = 640
+Image Height = 480
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =28gb
+Number Sensor Values =19950
+
+================
+8. Light-Sensors
+================
+Minimum Frequency = 1 Hz
+Minimum Data Rate = 1 Readings/s
+Period of Minimum Frequency = 1 s
+Light Intensity Range = 0 to 1000
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =538.8kb
+Number Sensor Values =7392
+
+================
+9. motion-sensor
+================
+Minimum Frequency = 25 Hz
+Minimum Data Rate = 25 Readings/s
+Period of Minimum Frequency = 0.04 s
+No Motion Detected: 0
+Motion Detected: 1
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =12.9mb
+Number Sensor Values =184977
+
+======================================
+10. Phantom-all-in-one-sensor--eph-u14
+======================================
+Minimum Frequency = 0.5 Hz
+Minimum Data Rate = 0.5 Readings/s
+Period of Minimum Frequency = 2 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =479.5kb
+Number Sensor Values =3659
+
+=============================
+11. Pressure-Sensor-MPX5010DP
+=============================
+Minimum Frequency = 0.01 Hz
+Minimum Data Rate = 0.01 Readings/s
+Period of Minimum Frequency = 100 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =5.5kb
+Number Sensor Values =75
+
+=========================
+12. Relay-DPDT-12V-Device
+=========================
+Minimum Frequency =  0.1 Hz
+Minimum Data Rate = 0.1 Readings/s
+Period of Minimum Frequency = 10 s
+Time Resolution Minimum = 10 s for 0.1 Hz, 1 s for 1 Hz and 0.001 s for 1000 Hz
+Time Resolution Maximum = 0.001 s for 1000 Hz
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =57kb
+Number Sensor Values =700
+ 
+=============================
+13. Temperature-Sensor-TMP102
+=============================
+Minimum Frequency =  0.5 Hz
+Minimum Data Rate = 0.5 Readings/s
+Period of Minimum Frequency = 2 s
+Temperature Range:-
+    -   Minimum Temperature: -40 Degree Celsius
+    -   Maximum Temperature: 125 Degree Celsius
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =345.5kb
+Number Sensor Values =3704
+    
+====================
+14. Vibration-Sensor
+====================
+Minimum Frequency =  1 Hz
+Minimum Data Rate = 1 Readings/s
+Period of Minimum Frequency = 1 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size =586.9kb
+Number Sensor Values =7344
+
