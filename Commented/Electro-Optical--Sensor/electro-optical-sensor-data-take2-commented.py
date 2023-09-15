@@ -25,7 +25,7 @@ with open('electro_optical_sensor_data.txt', 'a') as file:
             sensor_state = "Object detected" if sensor.is_active else "No object detected"
 
             # Print and save sensor state with timestamp
-            data_line = f"Electro-Optical Sensor:- Timestamp: {current_time:.6f}, Sensor State: {sensor_state}\n"
+            data_line = f"Electro-Optical Sensor: Timestamp: {current_time:.6f}, Sensor State: {sensor_state}\n"
             print(data_line.strip())  # Print without newline
             file.write(data_line)
 
@@ -43,7 +43,7 @@ with open('electro_optical_sensor_data.txt', 'a') as file:
             sensor_state = "Simulated Object detected"
 
             # Print and save sensor state with timestamp
-            data_line = f"Electro-Optical Sensor:- Timestamp: {current_time:.6f}, Sensor State: {sensor_state}\n"
+            data_line = f"Electro-Optical Sensor: Timestamp: {current_time:.6f}, Sensor State: {sensor_state}\n"
             print(data_line.strip())  # Print without newline
             file.write(data_line)
 
