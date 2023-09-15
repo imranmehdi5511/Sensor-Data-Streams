@@ -26,8 +26,8 @@ while True:
     pressure = np.random.uniform(pressure_range[0], pressure_range[1])
 
     # Save the data to a text file
-    with open('pressure_data.txt', 'a') as file:  # Open file in append mode
-        file.write(f"Pressure Sensor MPX5010DP:- Timestamp: {current_time:.6f},Pressure: {pressure:.2f}\n")
+    with open('pressure_sensor_MPX5010DP_data.txt', 'a') as file:  # Open file in append mode
+        file.write(f"Pressure Sensor MPX5010DP: Timestamp: {current_time:.6f},Pressure: {pressure:.2f}\n")
 
     # Wait for the next data point based on data rate
     time.sleep(time_step)
