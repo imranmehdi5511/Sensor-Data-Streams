@@ -23,7 +23,7 @@ with open('light_sensor_data.txt', 'a') as file:
         light_intensity = generate_random_light_intensity()
 
         # Print and save light sensor reading with timestamp
-        data_line = f"Light Sensor Data:- Timestamp: {current_time:.6f},Light Intensity: {light_intensity:.2f}\n"
+        data_line = f"Light Sensor Data: Timestamp: {current_time:.6f},Light Intensity: {light_intensity:.2f}\n"
         print(data_line.strip())  # Print without newline
         file.write(data_line)
 
