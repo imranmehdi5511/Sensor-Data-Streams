@@ -1,3 +1,4 @@
+#First of All import the required modules needed for the script. In this case the required module is time.
 import time
 
 # Function to generate timestamp in seconds with milliseconds precision
@@ -5,7 +6,7 @@ def get_current_timestamp():
     return time.time()
 
 # Main loop to read sensor state and save data to file
-with open('sensor_data.txt', 'a') as file:
+with open('electro_optical_sensor_data.txt', 'a') as file:
     try:
         from gpiozero import DigitalInputDevice
         # GPIO pin connected to the sensor's output
