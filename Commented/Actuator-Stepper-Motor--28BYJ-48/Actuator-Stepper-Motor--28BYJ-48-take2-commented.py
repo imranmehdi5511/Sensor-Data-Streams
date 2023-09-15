@@ -43,7 +43,7 @@ try:
             # Update step count and save it to a text file
             step_count += 1
             #revolutions += 1
-            save_data_to_file('stepper_motor_data.txt', f'Stepper Motor 28BYJ-48:- Direction: clockwise: Step {step_count}')
+            save_data_to_file('actuator_stepper_motor_data.txt', f'Stepper Motor 28BYJ-48: Direction: clockwise: Step {step_count}')
 
         # Rotate the stepper motor counterclockwise (backward) for one full revolution
         for _ in range(STEPS_PER_REVOLUTION):
@@ -58,7 +58,7 @@ try:
             # Update step count and save it to a text file
             step_count -= 1
             #revolutions += 1
-            save_data_to_file('stepper_motor_data.txt', f'Stepper Motor 28BYJ-48:- Direction: counterclockwise: Step {step_count}')
+            save_data_to_file('actuator_stepper_motor_data.txt', f'Stepper Motor 28BYJ-48: Direction: counterclockwise: Step {step_count}')
             #Data has been saved to file.
 except KeyboardInterrupt:
     # Clean up any resources and exit on keyboard interrupt (Ctrl+C)
