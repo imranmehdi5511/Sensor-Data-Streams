@@ -21,7 +21,7 @@ def get_current_timestamp():
     return time.time()
 
 # Main loop to read the virtual sensor and save data to file
-with open('sensor_data.txt', 'a') as file:
+with open('phantom_all-in-one_sensor_data.txt', 'a') as file:
     while True:
         # Generate current timestamp
         current_time = get_current_timestamp()
@@ -32,7 +32,7 @@ with open('sensor_data.txt', 'a') as file:
         current_reading = generate_random_current()
 
         # Print and save sensor readings with timestamp
-        data_line = f"Phantom All-in-One Sensor:- Timestamp: {current_time:.6f},Temperature Reading: {temperature_reading:.2f},Vibration Reading: {vibration_reading:.2f},Current Reading: {current_reading:.2f}\n"
+        data_line = f"Phantom All-in-One Sensor: Timestamp: {current_time:.6f},Temperature Reading: {temperature_reading:.2f},Vibration Reading: {vibration_reading:.2f},Current Reading: {current_reading:.2f}\n"
         print(data_line.strip())  # Print without newline
         file.write(data_line)
 
