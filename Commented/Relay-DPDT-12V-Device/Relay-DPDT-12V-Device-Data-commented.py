@@ -1,3 +1,5 @@
+#Important Note:-
+#You can find the details of the maximum and minimum possible values of different parameters, that can be used for each of the sensor script in the files named 'Tested for Minimum Frequencies', and 'Tested for Maximum Frequencies.txt'. These files are located in the Sensor-Data-Streams/Commented/*.txt directory of this repository. 
 #First of all import the required modules needed for the script. In this case the required module is time, and module numpy as np.
 import time
 #We used the Following values for the virtual sensor script. The maximum and minimum possible values of Frequency can be as low as 0.1 and as high as 1000. We arbitrarily ran the script for data rate value of 10 but the value can be changed as well. The data rate is basically same as the frequency. 
