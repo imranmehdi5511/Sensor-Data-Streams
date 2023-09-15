@@ -22,7 +22,7 @@ with open('vibration_sensor_data.txt', 'a') as file:
         vibration_reading = generate_random_vibration()
 
         # Print and save vibration sensor reading with timestamp
-        data_line = f"Vibration Sensor Data:- Timestamp: {current_time:.6f}, Vibrations Reading: {vibration_reading:.2f}\n"
+        data_line = f"Vibration Sensor Data: Timestamp: {current_time:.6f}, Vibrations Reading: {vibration_reading:.2f}\n"
         print(data_line.strip())  # Print without newline
         file.write(data_line)
 
