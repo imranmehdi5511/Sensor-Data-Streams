@@ -1,3 +1,4 @@
+#First of all import the required modules needed for the script. In this case the required module is time, and module os.
 import os
 import time
 
