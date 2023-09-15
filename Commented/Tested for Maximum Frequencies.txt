@@ -1,0 +1,179 @@
+==============================
+Tested for Maximum Frequencies
+==============================
+=============================
+Samping Rate and Frequencies:
+=============================
+Sensor Names:
+1. Actuator--G3VM-12-1--by-8-solenoid-Solid-state-relay
+2. Actuator-Stepper-Motor--28BYJ-48
+3. Electro-Optical--Sensor
+4. Field-Devices-Switch
+5. Flow-Sensor--YF-S201
+6. Humidity-Sensor
+7. image-sensor
+8. Light-Sensors
+9. motion-sensor
+10. Phantom-all-in-one-sensor--eph-u14
+11. Pressure-Sensor-MPX5010DP
+12. Relay-DPDT-12V-Device
+13. Temperature-Sensor-TMP102
+14. Vibration-Sensor
+=====================================================
+======
+Note:-
+======
+Codes ran for 2 hours, 1 minute, and 54.5582 seconds.
+=====================================================
+=======================================================
+1. Actuator--G3VM-12-1--by-8-solenoid-Solid-state-relay
+=======================================================
+Maximum Frequency = 1000 Hz
+Maximum Data Rate = 1000 Readings/s
+Period of Maximum Frequency = 0.001 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 584.8mb
+Number Sensor Values =7570640
+
+===================================
+2. Actuator-Stepper-Motor--28BYJ-48
+===================================
+Steps per Revolution = 4096
+Maximum Delay Between Steps = 5 s
+Maximum Frequency = 1000 Hz
+Maximum Data Rate = 1000 Readings/s
+Period of Maximum Frequency = 0.001 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 46.7mb
+Number Sensor Values =768836
+
+==========================
+3. Electro-Optical--Sensor
+==========================
+Maximum Frequency =  10 Hz
+Maximum Data Rate = 10 Readings/s
+Period of Maximum Frequency = 0.1 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 7 mb
+Number Sensor Values = 73702
+
+=======================
+4. Field-Devices-Switch
+=======================
+Maximum Frequency = 1000 Hz
+Maximum Data Rate = 1000 Readings/s
+Period of Maximum Frequency = 0.001 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 452.4mb
+Number Sensor Values =6604976
+
+=======================
+5. Flow-Sensor--YF-S201
+=======================
+Maximum Frequency = 1000 Hz
+Maximum Data Rate = 1000 Readings/s
+Period of Maximum Frequency = 0.001 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 449.1mb
+Number Sensor Values = 6078122
+
+==================
+6. Humidity-Sensor
+==================
+Maximum Frequency = 1000 Hz
+Maximum Data Rate = 1000 Readings/s
+Period of Maximum Frequency = 0.001 s
+Humidity Range: 30%-70%
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 500mb
+Number Sensor Values = 6578788
+
+===============
+7. image-sensor
+===============
+Maximum Frequency = 100 KHz 
+Maximum Data Rate = 100000 Readings/s
+Period of Maximum Frequency = 0.00001 s
+Image Width = 640
+Image Height = 480
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 41.6gb
+Number Sensor Values =29606
+
+================
+8. Light-Sensors
+================
+Maximum Frequency = 1 KHz
+Maximum Data Rate = 1000 Readings/s
+Period of Maximum Frequency = 0.001 s
+Light Intensity Range = 0 to 1000
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 480.4mb
+Number Sensor Values =6590192
+
+================
+9. motion-sensor
+================
+Maximum Frequency = 40 KHz
+Maximum Data Rate = 40000 Readings/s
+Period of Maximum Frequency = 0.000025 s
+No Motion Detected: 0
+Motion Detected: 1
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 5.5gb
+Number Sensor Values = 78082641
+
+======================================
+10. Phantom-all-in-one-sensor--eph-u14
+======================================
+Maximum Frequency = 60 Hz
+Maximum Data Rate = 60 Readings/s
+Period of Maximum Frequency = 0.01666666666 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 57.2mb
+Number Sensor Values = 436728
+
+=============================
+11. Pressure-Sensor-MPX5010DP
+=============================
+Maximum Frequency = 100000 Hz
+Maximum Data Rate = 100000 Readings/s
+Period of Maximum Frequency = 0.00001 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 4.6gb
+Number Sensor Values = 63302201
+
+=========================
+12. Relay-DPDT-12V-Device
+=========================
+Maximum Frequency =  1000 Hz
+Maximum Data Rate = 1000 Readings/s
+Period of Maximum Frequency = 0.001 s
+Time Resolution Minimum = 10 s for 0.1 Hz, 1 s for 1 Hz and 0.001 s for 1000 Hz
+Time Resolution Maximum = 0.001 s for 1000 Hz
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 536.5mb
+Number Sensor Values =6582600
+ 
+=============================
+13. Temperature-Sensor-TMP102
+=============================
+Maximum Frequency =  10000 Hz
+Maximum Data Rate = 10000 Readings/s
+Period of Maximum Frequency = 0.0001 s
+Temperature Range:-
+    -   Minimum Temperature: -40 Degree Celsius
+    -   Maximum Temperature: 125 Degree Celsius
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 3.1gb
+Number Sensor Values =33516560
+    
+====================
+14. Vibration-Sensor
+====================
+Maximum Frequency =  10000 Hz
+Maximum Data Rate = 10000 Readings/s
+Period of Maximum Frequency = 0.0001 s
+Testing Time = 2 Hours or 7254.5582 s
+Sensor Data File Size = 3.3gb
+Number Sensor Values =41503698
