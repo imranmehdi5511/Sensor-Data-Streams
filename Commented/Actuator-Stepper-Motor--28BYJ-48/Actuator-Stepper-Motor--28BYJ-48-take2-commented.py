@@ -1,3 +1,4 @@
+#First of All import the required modules needed for the script. In this case the required module is time.
 import time
 
 # Define the stepper motor sequence (order of activation for each coil)
@@ -56,7 +57,7 @@ try:
             step_count -= 1
             #revolutions += 1
             save_data_to_file('stepper_motor_data.txt', f'Stepper Motor 28BYJ-48:- Direction: counterclockwise: Step {step_count}')
-
+            #Data has been saved to file.
 except KeyboardInterrupt:
     # Clean up any resources and exit on keyboard interrupt (Ctrl+C)
     pass
