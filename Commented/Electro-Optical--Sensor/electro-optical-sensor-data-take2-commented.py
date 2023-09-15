@@ -1,3 +1,5 @@
+#Important Note:-
+#You can find the details of the maximum and minimum possible values of different parameters, that can be used for each of the sensor script in the files named 'Tested for Minimum Frequencies', and 'Tested for Maximum Frequencies.txt'. These files are located in the Sensor-Data-Streams/Commented/*.txt directory of this repository. 
 #First of All import the required modules needed for the script. In this case the required module is time.
 import time
 
