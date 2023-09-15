@@ -49,3 +49,4 @@ with open('electro_optical_sensor_data.txt', 'a') as file:
 
             # Wait for a short time before recording the next data point
             time.sleep(0.1)
+#The time to sleep is basically the period taken to produce one value, see the 'Tested for Minimum Frequencies.txt' and 'Tested for Maximum Frequencies.txt', for details.
