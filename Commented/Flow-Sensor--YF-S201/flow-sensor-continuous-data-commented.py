@@ -23,8 +23,8 @@ while True:
     flow_rate = np.random.uniform(frequency_response_low, frequency_response_high)
 
     # Save the data to a text file
-    with open('flow_data.txt', 'a') as file:  # Open file in append mode
-        file.write(f"Flow Sensor YF-S201 Data:- Timestamp: {current_time:.6f},Flow Rate: {flow_rate:.2f}\n")
+    with open('flow_sensor_YF-S201_data.txt', 'a') as file:  # Open file in append mode
+        file.write(f"Flow Sensor YF-S201 Data: Timestamp: {current_time:.6f},Flow Rate: {flow_rate:.2f}\n")
 
     # Wait for the next data point based on data rate
     time.sleep(time_step)
