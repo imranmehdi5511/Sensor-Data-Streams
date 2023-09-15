@@ -63,3 +63,4 @@ try:
 except KeyboardInterrupt:
     # Clean up any resources and exit on keyboard interrupt (Ctrl+C)
     pass
+#The time to sleep is basically the period taken to produce one value, see the 'Tested for Minimum Frequencies.txt' and 'Tested for Maximum Frequencies.txt', for details.
