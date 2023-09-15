@@ -30,3 +30,4 @@ with open('field_devices_switch_data.txt', 'a') as file:
 
         # Wait for the next data point based on timing resolution
         time.sleep(timing_resolution)
+#The time to sleep is basically the period taken to produce one value, see the 'Tested for Minimum Frequencies.txt' and 'Tested for Maximum Frequencies.txt', for details.
