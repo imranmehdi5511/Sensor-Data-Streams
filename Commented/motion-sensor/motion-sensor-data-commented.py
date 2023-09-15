@@ -22,7 +22,7 @@ with open('motion_sensor_data.txt', 'a') as file:
         motion_detected = generate_random_motion()
 
         # Print and save motion sensor reading with timestamp
-        data_line = f"Motion Sensor Data:- Timestamp: {current_time:.6f},Motion Detection: {motion_detected}\n"
+        data_line = f"Motion Sensor Data: Timestamp: {current_time:.6f},Motion Detection: {motion_detected}\n"
         print(data_line.strip())  # Print without newline
         file.write(data_line)
 
