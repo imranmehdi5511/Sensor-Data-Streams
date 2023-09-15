@@ -24,7 +24,7 @@ while True:
     temperature = np.random.uniform(temperature_range[0], temperature_range[1])
 
     # Save the data to a text file
-    with open('temperature_data.txt', 'a') as file:  # Open file in append mode
+    with open('temperature_sensor_TMP102_data.txt', 'a') as file:  # Open file in append mode
         file.write(f"Temperature Sensor TMP102 Data: Timestamp:{current_time:.6f},Temperature:{temperature:.2f} Degree Celsius\n")
 
     # Wait for the next data point based on data rate
