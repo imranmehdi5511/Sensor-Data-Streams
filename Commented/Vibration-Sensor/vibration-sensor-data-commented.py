@@ -28,3 +28,4 @@ with open('vibration_sensor_data.txt', 'a') as file:
 
         # Wait for a short time before recording the next data point
         time.sleep(1)  # You can adjust the time interval (e.g., 0.5 for half a second)
+#The time to sleep is basically the period taken to produce one value, see the 'Tested for Minimum Frequencies.txt' and 'Tested for Maximum Frequencies.txt', for details.
