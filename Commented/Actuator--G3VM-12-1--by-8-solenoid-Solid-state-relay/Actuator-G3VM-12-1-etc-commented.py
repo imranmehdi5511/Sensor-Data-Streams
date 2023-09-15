@@ -30,3 +30,4 @@ with open('actuator_solenoid_solid_state_relay_data.txt', 'a') as file:
 
         # Wait for the next data point based on data rate
         time.sleep(time_step)
+#The time to sleep is basically the period taken to produce one value, see the 'Tested for Minimum Frequencies.txt' and 'Tested for Maximum Frequencies.txt', for details.
