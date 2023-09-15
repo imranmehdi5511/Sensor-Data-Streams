@@ -33,3 +33,4 @@ while True:
     time.sleep(time_step)
 
     # You can add additional logic here to stop the data generation after a specific duration or based on a condition.
+#The time to sleep is basically the period taken to produce one value, see the 'Tested for Minimum Frequencies.txt' and 'Tested for Maximum Frequencies.txt', for details.
