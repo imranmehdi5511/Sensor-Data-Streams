@@ -13,7 +13,7 @@ frequency_response_high = 1000  # Frequency response high limit in Hz
 time_step = 1 / data_rate if data_rate > 0 else 0
 
 # Virtual relay simulation
-with open('relay_data.txt', 'a') as file:
+with open('relay_DPDT_12V_Device_data.txt', 'a') as file:
     relay_state = False  # Initial state is OFF (False)
     while True:
         # Generate current time stamp
@@ -24,7 +24,7 @@ with open('relay_data.txt', 'a') as file:
         relay_state_str = "ON" if relay_state else "OFF"
 
         # Print and save relay state
-        data_line = f"Relay DPDT 12V Device Data:- Timestamp: {current_time:.6f}, Relay State Value: {relay_state_str}\n"
+        data_line = f"Relay DPDT 12V Device Data: Timestamp: {current_time:.6f}, Relay State Value: {relay_state_str}\n"
         print(data_line.strip())  # Print without newline
         file.write(data_line)
 
