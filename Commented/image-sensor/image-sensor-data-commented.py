@@ -1,8 +1,10 @@
+#First of all import the required modules needed for the script. In this case the required module is time, and module random.
 import random
 import time
 
 # Function to generate a random image data (for simulation purposes)
 def generate_random_image_data():
+    #The values for image width and height have been set to 640 and 480 respectively, but we can alter them as well.
     image_width = 640
     image_height = 480
     image_data = []
