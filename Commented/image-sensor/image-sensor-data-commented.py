@@ -29,7 +29,7 @@ with open('image_sensor_data.txt', 'a') as file:
         image_data = generate_random_image_data()
 
         # Print and save image sensor reading with timestamp
-        data_line = f"Image Sensor Data:- Timestamp: {current_time:.6f},Image Data: {image_data}\n"
+        data_line = f"Image Sensor Data: Timestamp: {current_time:.6f},Image Data: {image_data}\n"
         print(data_line.strip())  # Print without newline
         file.write(data_line)
 
