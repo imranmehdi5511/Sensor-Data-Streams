@@ -13,7 +13,7 @@ frequency_response_high = 1000  # Frequency response high limit in Hz
 time_step = 1 / data_rate if data_rate > 0 else 0
 
 # Virtual switch simulation
-with open('switch_data.txt', 'a') as file:
+with open('field_devices_switch_data.txt', 'a') as file:
     switch_state = False  # Initial state is OFF (False)
     while True:
         # Generate current time stamp
@@ -24,7 +24,7 @@ with open('switch_data.txt', 'a') as file:
         switch_state_str = "ON" if switch_state else "OFF"
 
         # Print and save switch state
-        data_line = f"Switch Field Device:- Timestamp: {current_time:.6f},Switch State: {switch_state_str}\n"
+        data_line = f"Switch Field Device: Timestamp: {current_time:.6f},Switch State: {switch_state_str}\n"
         print(data_line.strip())  # Print without newline
         file.write(data_line)
 
