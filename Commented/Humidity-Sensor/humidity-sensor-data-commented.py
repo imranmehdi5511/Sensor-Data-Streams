@@ -13,7 +13,7 @@ def get_current_timestamp():
     return time.time()
 
 # Main loop to read the humidity sensor and save data to file
-with open('humidity_data.txt', 'a') as file:
+with open('humidity_sensor_data.txt', 'a') as file:
     while True:
         # Generate current timestamp
         current_time = get_current_timestamp()
@@ -22,7 +22,7 @@ with open('humidity_data.txt', 'a') as file:
         humidity_reading = generate_random_humidity()
 
         # Print and save humidity sensor reading with timestamp
-        data_line = f"Humidity Sensor Data:- Timestamp: {current_time:.6f},Humidity Reading: {humidity_reading:.2f}\n"
+        data_line = f"Humidity Sensor Data: Timestamp: {current_time:.6f},Humidity Reading: {humidity_reading:.2f}\n"
         print(data_line.strip())  # Print without newline
         file.write(data_line)
 
