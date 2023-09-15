@@ -1,0 +1,14 @@
+Actuator--G3VM-12-1--by-8-solenoid-Solid-state-relay
+Flow-Sensor--YF-S201
+motion-sensor
+Actuator-Stepper-Motor--28BYJ-48
+Phantom-all-in-one-sensor--eph-u14
+Pressure-Sensor-MPX5010DP
+Electro-Optical--Sensor
+Humidity-Sensor
+Relay-DPDT-12V-Device
+Temperature-Sensor-TMP102
+Field-Devices-Switch
+Light-Sensors
+Vibration-Sensor
+image-sensor
